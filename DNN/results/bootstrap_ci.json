@@ -1,0 +1,29 @@
+{
+  "ImprovedDNN": {
+    "accuracy": {
+      "point_estimate": 0.849529411764706,
+      "ci_lower_2.5": 0.7352941176470589,
+      "ci_upper_97.5": 0.9411764705882353
+    },
+    "balanced_accuracy": {
+      "point_estimate": 0.8541152642589684,
+      "ci_lower_2.5": 0.7352267830209007,
+      "ci_upper_97.5": 0.9565217391304348
+    },
+    "sensitivity": {
+      "point_estimate": 0.9321071078589752,
+      "ci_lower_2.5": 0.7893796992481203,
+      "ci_upper_97.5": 1.0
+    },
+    "specificity": {
+      "point_estimate": 0.7761234206589614,
+      "ci_lower_2.5": 0.5882352941176471,
+      "ci_upper_97.5": 0.944517543859649
+    },
+    "roc_auc": {
+      "point_estimate": 0.9507251416393131,
+      "ci_lower_2.5": 0.8715277777777778,
+      "ci_upper_97.5": 1.0
+    }
+  }
+}
