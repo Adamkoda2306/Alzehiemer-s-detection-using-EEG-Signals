@@ -1,0 +1,11 @@
+{
+  "numeric_duplicate_groups": 19,
+  "constant_runs_16_samples": 3069,
+  "subjects_with_constant_runs": 35,
+  "simultaneous_zero_intervals": 162,
+  "subjects_with_simultaneous_zeros": 35,
+  "simultaneous_zero_timepoints": 6202,
+  "duplicate_aligned_block_groups": 19,
+  "prefix_duplicate_pairs": 190,
+  "prefix_duplicate_pairs_other_than_known_group": []
+}
