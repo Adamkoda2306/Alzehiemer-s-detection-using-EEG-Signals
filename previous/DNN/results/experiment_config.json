@@ -1,0 +1,89 @@
+{
+  "seed": 42,
+  "fs": 128,
+  "epoch_sec": 8,
+  "epoch_samples": 1024,
+  "band": [
+    0.5,
+    45
+  ],
+  "channels": [
+    "Fp1",
+    "Fp2",
+    "F3",
+    "F4",
+    "F7",
+    "F8",
+    "Fz",
+    "C3",
+    "C4",
+    "Cz",
+    "P3",
+    "P4",
+    "Pz",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "O1",
+    "O2"
+  ],
+  "bands": {
+    "delta": [
+      0.5,
+      4.0
+    ],
+    "theta": [
+      4.0,
+      8.0
+    ],
+    "alpha": [
+      8.0,
+      13.0
+    ],
+    "beta": [
+      13.0,
+      30.0
+    ],
+    "gamma": [
+      30.0,
+      45.0
+    ]
+  },
+  "artifact_rejection": {
+    "enabled": true,
+    "std_threshold": 6.0,
+    "abs_threshold": null
+  },
+  "split": {
+    "val_size": 0.15,
+    "test_size": 0.15
+  },
+  "n_subjects": {
+    "total": 232,
+    "train": 162,
+    "val": 35,
+    "test": 35
+  },
+  "eegnet_aggregation": {
+    "method": "mean",
+    "threshold": 0.22999999999999998,
+    "balanced_acc": 1.0
+  },
+  "dnn_aggregation": {
+    "method": "mean",
+    "threshold": 0.07,
+    "balanced_acc": 0.9705882352941176
+  },
+  "baseline_thresholds": {
+    "LogisticRegression": 0.05,
+    "SVM": 0.7,
+    "RandomForest": 0.31999999999999995
+  },
+  "best_dl_model": "ImprovedDNN",
+  "cv": {
+    "run_cv": true,
+    "run_dl_cv": false,
+    "cv_folds": 5
+  }
+}

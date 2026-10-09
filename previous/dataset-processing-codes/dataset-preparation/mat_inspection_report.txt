@@ -1,0 +1,152 @@
+File: controls_c1_new.mat  (6.67 GB)
+
+=== MATLAB v7.3 / HDF5 file: controls_c1_new.mat ===
+Top-level keys: ['#refs#', 'controls_r']
+
+controls_r  [Group]
+  attr: MATLAB_class = b'struct'
+  attr: MATLAB_fields = [array([b'a', b'g', b'e'], dtype='|S1')
+ array([b's', b'e', b'x'], dtype='|S1') array([b'G'], dtype='|S1')
+ array([b'n'], dtype='|S1') array([b'g'], dtype='|S1')]
+
+  controls_r/G  [Dataset]
+    [Dataset] shape=(1, 96)  dtype=object
+        attr: H5PATH = b'/controls_r'
+        attr: MATLAB_class = b'cell'
+        (reference array, 96 elements) -- expanding first 3:
+          [0] -> /#refs#/hd
+            [Dataset] shape=(1, 1)  dtype=object
+                attr: H5PATH = b'/#refs#/hd'
+                attr: MATLAB_class = b'cell'
+                (reference array, 1 elements) -- expanding first 1:
+                  [0] -> /#refs#/id
+                    [Dataset] shape=(1125002, 19)  dtype=float64
+                        attr: H5PATH = b'/#refs#/id'
+                        attr: MATLAB_class = b'double'
+                        sample corner (5, 5): [0. 0. 0. 0. 0.]
+          [1] -> /#refs#/jd
+            [Dataset] shape=(1, 1)  dtype=object
+                attr: H5PATH = b'/#refs#/jd'
+                attr: MATLAB_class = b'cell'
+                (reference array, 1 elements) -- expanding first 1:
+                  [0] -> /#refs#/kd
+                    [Dataset] shape=(365202, 19)  dtype=float64
+                        attr: H5PATH = b'/#refs#/kd'
+                        attr: MATLAB_class = b'double'
+                        sample corner (5, 5): [0. 0. 0. 0. 0.]
+          [2] -> /#refs#/ld
+            [Dataset] shape=(1, 1)  dtype=object
+                attr: H5PATH = b'/#refs#/ld'
+                attr: MATLAB_class = b'cell'
+                (reference array, 1 elements) -- expanding first 1:
+                  [0] -> /#refs#/md
+                    [Dataset] shape=(263602, 19)  dtype=float64
+                        attr: H5PATH = b'/#refs#/md'
+                        attr: MATLAB_class = b'double'
+                        sample corner (5, 5): [0. 0. 0. 0. 0.]
+
+  controls_r/age  [Dataset]
+    [Dataset] shape=(1, 96)  dtype=object
+        attr: H5PATH = b'/controls_r'
+        attr: MATLAB_class = b'cell'
+        (reference array, 96 elements) -- expanding first 3:
+          [0] -> /#refs#/b
+            [Dataset] shape=(1, 1)  dtype=float64
+                attr: H5PATH = b'/#refs#/b'
+                attr: MATLAB_class = b'double'
+                sample corner (1, 1): [20.]
+          [1] -> /#refs#/c
+            [Dataset] shape=(1, 1)  dtype=float64
+                attr: H5PATH = b'/#refs#/c'
+                attr: MATLAB_class = b'double'
+                sample corner (1, 1): [21.]
+          [2] -> /#refs#/d
+            [Dataset] shape=(1, 1)  dtype=float64
+                attr: H5PATH = b'/#refs#/d'
+                attr: MATLAB_class = b'double'
+                sample corner (1, 1): [20.]
+
+  controls_r/g  [Dataset]
+    [Dataset] shape=(1, 96)  dtype=object
+        attr: H5PATH = b'/controls_r'
+        attr: MATLAB_class = b'cell'
+        (reference array, 96 elements) -- expanding first 3:
+          [0] -> /#refs#/tj
+            [Dataset] shape=(1, 1)  dtype=float64
+                attr: H5PATH = b'/#refs#/tj'
+                attr: MATLAB_class = b'double'
+                sample corner (1, 1): [500.]
+          [1] -> /#refs#/uj
+            [Dataset] shape=(1, 1)  dtype=float64
+                attr: H5PATH = b'/#refs#/uj'
+                attr: MATLAB_class = b'double'
+                sample corner (1, 1): [200.]
+          [2] -> /#refs#/vj
+            [Dataset] shape=(1, 1)  dtype=float64
+                attr: H5PATH = b'/#refs#/vj'
+                attr: MATLAB_class = b'double'
+                sample corner (1, 1): [200.]
+
+  controls_r/n  [Dataset]
+    [Dataset] shape=(1, 96)  dtype=object
+        attr: H5PATH = b'/controls_r'
+        attr: MATLAB_class = b'cell'
+        (reference array, 96 elements) -- expanding first 3:
+          [0] -> /#refs#/ng
+            [Dataset] shape=(1, 1)  dtype=object
+                attr: H5PATH = b'/#refs#/ng'
+                attr: MATLAB_class = b'cell'
+                (reference array, 1 elements) -- expanding first 1:
+                  [0] -> /#refs#/og
+                    [Dataset] shape=(12, 1)  dtype=uint16
+                        attr: H5PATH = b'/#refs#/og'
+                        attr: MATLAB_class = b'char'
+                        attr: MATLAB_int_decode = 2
+                        string preview: 'DB0090YY.EEG'
+          [1] -> /#refs#/pg
+            [Dataset] shape=(1, 1)  dtype=object
+                attr: H5PATH = b'/#refs#/pg'
+                attr: MATLAB_class = b'cell'
+                (reference array, 1 elements) -- expanding first 1:
+                  [0] -> /#refs#/qg
+                    [Dataset] shape=(12, 1)  dtype=uint16
+                        attr: H5PATH = b'/#refs#/qg'
+                        attr: MATLAB_class = b'char'
+                        attr: MATLAB_int_decode = 2
+                        string preview: 'FA0010V2.EEG'
+          [2] -> /#refs#/rg
+            [Dataset] shape=(1, 1)  dtype=object
+                attr: H5PATH = b'/#refs#/rg'
+                attr: MATLAB_class = b'cell'
+                (reference array, 1 elements) -- expanding first 1:
+                  [0] -> /#refs#/sg
+                    [Dataset] shape=(12, 1)  dtype=uint16
+                        attr: H5PATH = b'/#refs#/sg'
+                        attr: MATLAB_class = b'char'
+                        attr: MATLAB_int_decode = 2
+                        string preview: 'FA001203.EEG'
+
+  controls_r/sex  [Dataset]
+    [Dataset] shape=(1, 96)  dtype=object
+        attr: H5PATH = b'/controls_r'
+        attr: MATLAB_class = b'cell'
+        (reference array, 96 elements) -- expanding first 3:
+          [0] -> /#refs#/Jb
+            [Dataset] shape=(1, 1)  dtype=uint16
+                attr: H5PATH = b'/#refs#/Jb'
+                attr: MATLAB_class = b'char'
+                attr: MATLAB_int_decode = 2
+                string preview: 'F'
+          [1] -> /#refs#/Kb
+            [Dataset] shape=(1, 1)  dtype=uint16
+                attr: H5PATH = b'/#refs#/Kb'
+                attr: MATLAB_class = b'char'
+                attr: MATLAB_int_decode = 2
+                string preview: 'M'
+          [2] -> /#refs#/Lb
+            [Dataset] shape=(1, 1)  dtype=uint16
+                attr: H5PATH = b'/#refs#/Lb'
+                attr: MATLAB_class = b'char'
+                attr: MATLAB_int_decode = 2
+                string preview: 'F'
+
